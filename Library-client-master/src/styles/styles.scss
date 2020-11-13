@@ -1,0 +1,654 @@
+
+@import "~animate.css/animate.min.css";
+@import "./variables.scss";
+@import "./mediaqueries.scss";
+
+.custom-body{
+    background: #f1f1f1c9
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.custom-container{
+    margin: 0 10px;
+}
+
+
+.flex-item{
+    display: flex;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item-v_center{
+    display: flex;
+    justify-content: center;
+
+}
+.item-p_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-center{
+    display: flex;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Header Component All Styles Here */
+.navbar-toggler-icon:focus {
+outline: none !important;
+}
+.study-portal_navbar{
+    background-color: $main;   
+}
+.study-portal_navbar_text{
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+}
+/* .user-image{
+    background: url("../Images/Backgrounds/user.jpg");
+} */
+
+
+/* Main Component All Styles Here */
+
+
+.background{
+    background: url('../Images/Backgrounds/mainpage.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .background_1{
+    background: url('../Images/Backgrounds/mainpage1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .background_2{
+    background: url('../Images/Backgrounds/mainpage2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+  }
+ 
+  
+  
+
+ /* Count Component All Styles Here */
+.count-box{
+    background-color: $main;
+   
+    width: 100%;
+}
+.icon-box{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.icon-box_sub{
+    margin-left: 10px;
+}
+ .icon-box_icon{
+     font-size: 60px;
+     color: $primary;
+ }
+ .icon-box_value{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+ }
+ .icon-box_text{
+    color: #ffffff;
+    font-size: 25px;
+ }
+
+ /* Buttons Component All Styles Here */
+ .btn{
+    transition: none;
+ }
+ .btn:focus{
+    transition: none;
+    border: none !important;
+ }
+ .btn-primary:focus{
+    color: #fff;
+    background-color: $teritary;
+    border: $teritary;
+    box-shadow: none !important;
+}
+ 
+ .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: $teritary;
+    border: $teritary;}
+ .btn-primary{
+    color: #fff;
+    background-color: $teritary;
+    border: $teritary;
+ }
+ .btn-primary:hover{
+    color: #fff;
+    background-color: $teritary;
+    border: $teritary;
+ }
+
+ .btn-login{
+     background: none !important;
+     border:none !important;
+     outline: none !important;
+     cursor: pointer !important;
+ }
+ .btn-login:focus{
+   box-shadow: none !important;
+}
+
+.btn-signin{
+    background:$primary !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    margin-left: 10px;
+}
+.btn-signin:focus{
+  box-shadow: none !important;
+}
+
+
+.btn-login_google{
+    background: #DB4437 !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+.btn-login_google:focus{
+  box-shadow: none !important;  
+}
+
+.btn-login_facebook{
+    background: #4267B2 !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.btn-login_google:focus{
+  box-shadow: none !important; 
+}
+
+.btn-online{
+    background: #4267B2 !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    width: 95px;
+    margin-bottom: 5px;
+    margin: 5px 5px;
+    
+
+}
+.btn-download:focus{
+    box-shadow: none !important;
+ }
+ .btn-online:focus{
+    box-shadow: none !important;
+ }
+
+.btn-download{
+    background: #953dc7 !important;
+    border:none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    margin: 0 5px;
+    
+    
+}
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    outline: none;
+}
+
+.modal-header{
+    border-top: solid 10px $primary;
+    
+}
+.icon-login{
+    margin-right: 5px;
+}
+
+
+ /* Why Component All Styles Here */
+
+ .why-img{
+    height: 60vh;
+ }
+ .heading_primary{
+    text-align: center;
+    font-size: 50px;
+    color: $secondry;
+    margin-top: 56px;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+ .list_primary{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 17px;
+ }
+ .list-icon{
+     margin-right: 10px;
+     color: $primary;
+ }
+
+  /* Custom Space All Styles Here */
+
+ .custom_scale_1{
+     margin-top: 20px;
+ }
+/* News Letter All Styles Here */
+ .box-news_letter{
+padding: 10px;
+margin-top: 90px;
+background: linear-gradient(-45deg, #ee7752, #f7c232, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+ }
+ @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.box-news_letter .btn{
+    margin-left: 10px;
+}
+ .letter-img{
+     height: 20vh;
+ }
+ .news-letter-text_heading{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+ }
+ .news-letter_input-box{
+     width: 60% !important;
+ }
+ .news-letter_input-box:active{
+    outline: none;
+    box-shadow: none;
+}
+
+ /* Our Team Component All Styles Here */
+.team-background{
+    background: #edfffd;
+    background: #edfffd;
+    padding-bottom: 30px;
+
+}
+.img_team{
+    height: 200px;
+    border-radius: 100px;
+    transition: transform .5s ease; 
+    cursor: pointer;
+}
+.img_team:hover{
+    transform: scale(1.1);
+}
+.team-heading_text{
+    font-size: 20px;
+    font-weight: 600;
+    color: $secondry;
+    margin-top: 10px;
+}
+
+.job-icon{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+/* Contact US Component All Styles Here */
+.contact-form{
+    margin-top: 40px;
+}
+.contact-form .form-control:focus {
+    box-shadow:none;
+}
+
+.contact-form-control   {
+    margin-left:10px;
+}
+.custom-form-btn{
+    margin: 10px;
+    width: 20%;
+}
+
+
+/* Footer Component All Styles Here */
+
+.main-footer{
+    background-color: $main;
+    padding: 15px;
+}
+.main-footer_heading{
+    
+    color: white;
+    margin: 5px 0 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+.main-footer_heading_portal{
+    font-size: 25px;
+    color: white;
+}
+.main-footer_detail_portal{
+    font-size: 15px;
+    color: white;
+}
+.sub-footer-copyright{
+    font-size: 12px;
+    background-color: $main;
+    padding: 15px;
+    color: white;
+}
+.useful-links{
+    padding: 0;
+}
+.footer-text a {
+    color: white;
+}
+.footer-text a:hover {
+    color: $primary;
+}
+.icon-contact{
+    color: white;
+background: $primary;
+padding: 9px;
+border-radius: 20px;
+
+margin: 0 10px 0 0;
+cursor: pointer;
+font-size: 10px !important;
+} 
+.icon-social{
+    color: white;
+    background: $teritary;
+    padding: 9px;
+    border-radius: 3px;
+    
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    font-size: 10px !important;  
+}
+.main-footer_sub-text{
+    color: white;
+    margin-top: 10px;
+}
+
+// Inner Pages Styles Start Here
+
+/* Breadcome Component All Styles Here */
+.breadcrumb {
+    background: none;
+    margin: 0;
+    margin-left: 20px;
+}
+.breadcome-heading{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 12px;
+    color: #4d4c4c;
+    margin-left: 30px;
+}
+.breadcrumb-item a{
+    color: #4d4c4c;  
+}
+
+/* Courses Component All Styles Here */
+.courses-wrapper_main{
+    margin-bottom: 20px;
+    background:white;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+
+.courses-wrapper_img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform .5s ease; 
+}
+// .courses-wrapper_img:hover{
+//     transform: scale(1.1);
+// }
+.course-heading{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1390cc;
+    margin-bottom: 5px;
+}
+
+.lecturer-avatar_img{
+    height: 40px;
+    width: 40px;
+    border-radius: 32px;
+}
+.lecturer-name{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 500;
+    color: #0abe0a;
+}
+.course-date-icon{
+    font-size: 10px;
+    margin-top: 3px;
+    color: $primary;
+}
+.course-date{
+font-size: 10px;
+margin-left: 5px;
+}
+.course-details{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Topic Component All Styles Here */
+
+.topic_row{
+    background: url('../Images/Backgrounds/london3.jpg') ;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+  
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Search Component All Styles Here */
+
+.search-header{
+background: white;
+border-radius: 5px;
+margin-bottom: 10px;
+padding: 23px 0 23px 0;
+
+}
+.search-box{
+    width: 100%;
+   
+    outline: none;
+    border: solid 1px #c8c8c8;
+    height: 30px;
+    border-radius: 2px;
+    height: 40px;
+    padding: 0 15px;
+    
+}
+
+/* Filter Component All Styles Here */
+
+.filter-box{
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px ;
+}
+.filer-heading{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #4d4c4c;
+    margin-bottom: 10px;
+}
+.filer-subjects{
+    
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 0 7px 5px;
+    padding: 0 0 4px 0;
+    border-bottom: solid 1px #f3f3f3;
+
+}
+.filer-subjects a {
+    color: #4d4c4c;
+}
+.filer-subjects a:hover {
+    color: $primary;
+}
+
+/* Upcoming Component All Styles Here */
+
+.filter-exam_category{
+    margin-left: 25px;
+    color: #4d4c4c;
+    width: 150px;
+}
+
+.filter-exam_date{
+    margin-left: 25px; 
+    color: #0abe0a;
+}
+
+.filter-exam_icon {
+    margin-right: 5px;
+}
+.filter-exam_time{
+    margin-left: 25px; 
+    color: $primary ;
+}
+
+/* Join us Component All Styles Here */
+.join-us-box{
+    background: linear-gradient(-45deg, #ee7752, #f7c232, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    margin-bottom: 40px;
+    padding: 15px;
+    animation: gradient 15s ease infinite;
+     }
+     @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+}
+.join-us-heading{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+ 
+}
+.join-us-text{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Exam   Component All Styles Here */
+
+.exam-paper_topic-box{
+    padding: 30px;
+    background: #ededed;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #666666;
+    font-size: 30px;
+    font-weight: 600;
+}
+.exam-paper-sub_topic-box{
+    background: $primary ;
+    padding: 10px;
+}
+.exam-paper_name{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.exam-paper_id{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.exam-paper_time{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.exam-paper_question{
+    font-size: 21px;
+    font-weight: 600;
+    margin: 25px 0 10px 0;
+    
+}
+.exam-paper_answer{
+    font-size: 15px;  
+    font-weight: 600;
+}
+
+.exam-paper_ending-box{
+    padding: 20px;
+}
