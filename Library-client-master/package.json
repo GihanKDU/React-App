@@ -17,6 +17,7 @@
     "react-animated-css-onscroll": "^1.2.1",
     "react-bootstrap": "^1.4.0",
     "react-circular-progressbar": "2.0.3",
+    "react-countdown-circle-timer": "^2.3.7",
     "react-custom-scrollbars": "4.2.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.3",
