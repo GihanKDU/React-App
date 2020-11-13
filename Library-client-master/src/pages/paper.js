@@ -17,7 +17,9 @@ const Paper = () => {
       }
     return (
         <div className="">
+            <div className="timer">
             <CountdownCircleTimer
+            
                 isPlaying={isPlaying}
                 duration={3600}
                 size={70}
@@ -25,13 +27,15 @@ const Paper = () => {
                     // return [true]
                 }}
                 colors={[ 
-                    ['#004777', 0.33],
+                    ['#00E676', 0.33],
                     ['#F7B801', 0.33],
                     ['#A30000', 0.33],
                 ]}
             >
                 {children}
+                
             </CountdownCircleTimer>
+            </div>
             <Breadcome />
             <Exam />
 
