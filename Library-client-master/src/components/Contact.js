@@ -20,7 +20,7 @@ export default function Contact() {
             <Row>
                 <Col data-aos="fade-up"  md={5}>
                     <ScrollAnimation className="animate__slower" animateIn="fadeInUp">
-                        <Image className="why-img" src='/call.png' alt={"girl"} />  </ScrollAnimation>
+                        <Image className="why-img" src='/call.png' alt={"gir"} />  </ScrollAnimation>
                 </Col>
                 <Col data-aos="fade-up"  md={7}>
                     <ScrollAnimation className="animate__slower" animateIn="fadeInUp">
