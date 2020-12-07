@@ -28,7 +28,7 @@ export default function Tips() {
                 </Col>
                 <Col data-aos="fade-up"  md={5}>
                     <ScrollAnimation className="animate__slower" animateIn="fadeInUp">  
-                    <Image className="why-img" src='/girl.png' alt={"girl"} />  </ScrollAnimation>
+                    <Image className="why-img" src='/girl.png' alt={"gir"} />  </ScrollAnimation>
                 </Col>
 
 
